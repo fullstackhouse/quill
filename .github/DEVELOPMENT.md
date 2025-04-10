@@ -42,11 +42,11 @@ If you need to modify only the website's code, start the website with `npm start
 
 To run the unit tests in watch mode, run:
 
-    npm run test:unit -w quill
+    npm run test:unit -w @fullstackhouse/quill
 
 To execute the E2E tests, run:
 
-    npm run test:e2e -w quill
+    npm run test:e2e -w @fullstackhouse/quill
 
 ## Workflow
 
@@ -54,5 +54,5 @@ A standard development workflow involves:
 
 1. `npm start` - to run development services
 2. [localhost:9000/standalone/snow](http://localhost:9000/standalone/snow) - to interactively develop and test an isolated example
-3. `npm run test:unit -w quill` - to run unit tests
+3. `npm run test:unit -w @fullstackhouse/quill` - to run unit tests
 4. If everything is working, run the E2E tests
